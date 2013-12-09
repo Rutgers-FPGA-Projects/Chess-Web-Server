@@ -1,0 +1,10 @@
+PLL_Name	clock_10pll:CLK10|clock_10pll_altpll_0:altpll_0|clock_10pll_altpll_0_altpll_p342:sd1|pll7
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	clock_25pll:CLK25|clock_25pll_altpll_0:altpll_0|clock_25pll_altpll_0_altpll_tc42:sd1|pll7
+PLLJITTER	20
+PLLSPEmax	84
+PLLSPEmin	-53
+

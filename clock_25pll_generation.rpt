@@ -1,0 +1,40 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=Z:/FGPA/FGPA/Project/ --output-directory=Z:/FGPA/FGPA/Project/clock_25pll/ --report-file=bsf:Z:/FGPA/FGPA/Project/clock_25pll.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=Z:/FGPA/FGPA/Project/clock_25pll.qsys
+Progress: Loading Project/clock_25pll.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 13.0]
+Progress: Parameterizing module altpll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: clock_25pll.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Warning: clock_25pll.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
+Warning: clock_25pll.altpll_0: altpll_0.locked_conduit must be exported, or connected to a matching conduit.
+Warning: clock_25pll.altpll_0: altpll_0.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=Z:/FGPA/FGPA/Project/ --output-directory=Z:/FGPA/FGPA/Project/clock_25pll/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:Z:/FGPA/FGPA/Project/clock_25pll.sopcinfo --report-file=html:Z:/FGPA/FGPA/Project/clock_25pll.html --report-file=qip:Z:/FGPA/FGPA/Project/clock_25pll/synthesis/clock_25pll.qip --report-file=cmp:Z:/FGPA/FGPA/Project/clock_25pll.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=Z:/FGPA/FGPA/Project/clock_25pll.qsys --language=VHDL
+Progress: Loading Project/clock_25pll.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 13.0]
+Progress: Parameterizing module altpll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: clock_25pll.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Warning: clock_25pll.altpll_0: altpll_0.areset_conduit must be exported, or connected to a matching conduit.
+Warning: clock_25pll.altpll_0: altpll_0.locked_conduit must be exported, or connected to a matching conduit.
+Warning: clock_25pll.altpll_0: altpll_0.phasedone_conduit must be exported, or connected to a matching conduit.
+Info: clock_25pll: Generating clock_25pll "clock_25pll" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 1 modules, 0 connections
+Info: altpll_0: "clock_25pll" instantiated altpll "altpll_0"
+Info: clock_25pll: Done clock_25pll" with 2 modules, 2 files, 13044 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
